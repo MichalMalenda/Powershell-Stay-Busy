@@ -27,4 +27,31 @@ Function Stay-Busy{
         }
         $myshell.sendkeys(".")
     }
+    <#
+        .SYNOPSIS
+        Sends a dot and moves your mouse to a random position.
+
+        .DESCRIPTION
+        Sends a dot and moves your mouse to a random position.
+        Takes any int for the work time.
+
+        .PARAMETER Minutes
+        Specifies the work time.
+
+        .INPUTS
+        None. You cannot pipe objects to Stay-Busy.
+
+        .OUTPUTS
+        None. You cannot store any return values of Stay-Busy.
+
+        .EXAMPLE
+        PS> Stay-Busy -Minutes 20
+        Stay-Busy will work for 20 minutes, go grab yourself a coffee :)
+        (5 minutes later)
+        5 minutes have passed
+
+        .LINK
+        Online version: https://github.com/MichalMalenda/Powershell-Stay-Busy
+
+    #>
 }
